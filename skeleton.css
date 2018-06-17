@@ -1,0 +1,644 @@
+/* -- Complete CSS Skeleton | Created by Monzilla Media for Perishable Press -- */
+/* -- Updated Aug 21st 2006 | Leave the footer credit complete and use at will -- */
+
+
+/* -- |x = deprecated -- */
+/* -- |n = navigator only -- */
+/* -- |e = explorer only -- */
+
+/* -- FONT -- */
+
+@font-face { 
+	font-family: "Calisto"; 
+	src: url('CALIST.TTF'); 
+}
+
+
+/* -- HEAD -- */
+
+!DOCTYPE {}
+base {}
+head {}
+link {}
+meta {}
+title {}
+
+/* -- MAIN -- */
+
+*, html *, body * {}
+* {}
+html {}
+body {
+  font-family: Calisto, "Times New Roman", Times, serif;
+}
+div#name {}
+div.name {}
+div {}
+span {}
+
+/* -- TEXT -- */
+
+h1,h2,h3,h4,h5,h6 {
+	padding: 10px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+h4 {
+  margin-top: 27px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.productName {
+	color: #FF942B;	
+}
+
+.date,
+.partnerlink {
+	font-size: 0.8em;
+	width: 92%;
+	margin: auto;
+	margin-top: -15px;	
+}
+
+.top-text {
+	margin-top: 0px;	
+}
+
+.bottom-text {
+  margin-top: 40px;
+  border-top: 2px solid #CCC;
+}
+
+.bottom-text p {
+  max-width: 650px;
+}
+
+.block {
+	display: block;
+	float: left;
+	width: 34.5%;
+	margin: -10px;
+	margin-left: -3px;
+	margin-bottom: 10px;
+
+}
+
+.home {
+	width: 95%;
+	margin: auto;
+	border: 1px solid #E0E0E0;
+	border-top-right-radius:2em;
+	border-top-left-radius:2em;
+	border-bottom-right-radius:2em;
+	border-bottom-left-radius:2em;
+	background-color: #FFFFFF;	
+	margin-bottom: 15px;
+	margin-top: 15px;
+	font-size: 0.95em;
+	clear: both;
+}
+
+.txtbox {
+	width: 95%;
+	margin: auto;
+	border: 1px solid #E0E0E0;
+	border-top-right-radius:2em;
+	background-color: #F0F0F0;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	font-size: 0.95em;
+	clear: both;
+}
+
+.gun {
+	display:inline-block;
+	width: 51%;
+	margin-left: 24%;	
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border: 1px solid #E0E0E0;
+	border-top-right-radius:2em;
+	border-top-left-radius:2em;
+	border-bottom-right-radius:2em;
+	border-bottom-left-radius:2em;
+	background-color: #F0F0F0;	
+	font-size: 0.95em;	
+}
+
+.product {
+	display: block;
+	float: left;
+	width: 46%;
+	margin-left: 2%;
+	margin-right: 1%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border: 1px solid #E0E0E0;
+	border-top-right-radius:2em;
+	border-top-left-radius:2em;
+	border-bottom-right-radius:2em;
+	border-bottom-left-radius:2em;
+	background-color: #F0F0F0;	
+	font-size: 0.95em;	
+}
+
+.feature {
+	display: block;
+	float: left;
+	width: 29%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border: 1px solid #E0E0E0;
+	border-top-right-radius:2em;
+	border-top-left-radius:2em;
+	border-bottom-right-radius:2em;
+	border-bottom-left-radius:2em;
+	background-color: #F0F0F0;	
+	font-size: 0.95em;	
+}
+
+p {
+	padding-right: 20px;
+	padding-left: 20px;
+	text-indent: 10px;
+	text-align: justify;
+}
+
+p.contact,
+p.noIndent {
+	text-indent: 0px;	
+}
+
+p.heading {
+	font-size: 1.2em;	
+}
+
+p:first-line {
+		
+}
+p:first-letter {}
+
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {}
+
+p:hover a:link,
+p:hover a:visited {}
+p:hover a:hover, 
+p:hover a:active {}
+
+/* -- LISTS -- */
+
+ul {}
+ol {}
+li {
+
+}
+
+ul#main-menu li {
+    display: inline; 
+    margin-top: 5px;
+    font-size: 1.2em;
+}
+
+ul#main-menu li.first {
+    margin-right: 10px;
+    padding-right: 30px;
+	margin-left: -10px;
+}
+
+ul#main-menu li.mid {
+    margin-left: 15px;
+    /*border-right: 1px solid #4A4A4A;
+    height: 25px;*/
+    margin-right: 10px;
+    padding-right: 30px;
+}
+
+ul#main-menu li a.active {
+	background: #FF942B;
+  	padding: 10px;
+	text-decoration: none;
+	color: #E0E0E0;
+}
+
+ul#main-menu li a.inactive {
+  color: #202020;
+  text-decoration: none;
+}
+
+ul#main-menu li a.inactive:hover {
+	background: rgb(188,219,230);
+  	padding: 10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	text-decoration: none;
+}
+
+.links li {
+  margin-bottom: 5px;
+}
+
+ol li {}
+ul ul, ul ol, ol ul, ol ol {}
+ul li li {}
+ol li li {}
+
+li p, li li p {}
+
+dl {}
+dt {}
+dd {}
+
+/* -- Video -- */
+
+div.video {
+	width: 830px;
+	height: 460px;
+	margin: auto;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	border-bottom-right-radius: 2em;
+	border-bottom-left-radius: 2em;
+	border-top-right-radius: 2em;
+	border-top-left-radius: 2em;
+	background-image: url(home-hero.png);
+	background-repeat: no-repeat;
+	clear: both;
+}
+
+.thevideo {
+	padding-top: 125px;
+	margin-left: 169px;	
+	
+}
+
+.vidnews {
+	width: 560px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+
+/* -- IMAGES -- */
+
+img {}
+img a {}
+img a:hover {}
+img.noborder {}
+
+img.blockcenter {
+	margin-left: 96px;
+}
+
+.features {
+	width: 90%;
+	height: 120px;
+	margin: 5%;
+	margin-top: 0px;
+}
+.featurespop {
+	width: 90%;
+	margin-left: 30px;
+}
+
+.LX5 {
+	width: 310px;	
+	height: 163px;
+}
+
+.pulse {
+	margin: 0px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	display: inline;
+}
+
+.thumbnail 
+{
+width:110px;
+height:90px;
+margin:5px;
+}
+
+.playButton {
+	margin-top: 235px;	
+	margin-left: 355px;
+}
+
+.partner {
+	float: right;
+	display: inline;	
+}
+
+img.align-center, img[align="center"] {}
+img.align-right, img[align="right"] {}
+img.align-left, img[align="left"] {}
+
+/* -- LINKS -- */
+
+a {
+	color: #006AFB;
+}
+a img {}
+a:focus {}
+
+a.footerlinks {
+	color: #808080;	
+}
+a:link {
+}
+
+a:visited {
+	 color: #C901DC; 
+}
+a:hover {
+}
+
+a:active {
+	
+}
+
+/*
+a[href]:after { content: " | "; }
+a[rel]:before { content: " * "; }*/
+a[lang|="nl"] {}
+a[title="common"] {}
+area {}
+map {}
+
+/* -- FORMS -- */
+
+fieldset {}
+textarea {}
+textarea:hover {}
+
+optgroup {}
+option {}
+select {}
+
+button:hover {}
+button {}
+legend {}
+label {}
+
+input {}
+input:focus {}
+input:hover {}
+input[type=submit], input[type=reset], input[type=button] {}
+input[type=text]:focus, textarea:focus, select:focus {}
+form input[type=text] {}
+form {}
+
+blockquote {}
+blockquote p {}
+blockquote cite {}
+
+pre {}
+code {}
+p code {}
+pre code {}
+
+kbd {}
+samp {}
+cite {}
+abbr {}
+acronym {}
+address {}
+
+hr {}
+br {}
+wbr {}
+nobr {}
+
+strong {}
+small {}
+sub {}
+sup {}
+big {}
+em {}
+i {}
+b {}
+q {}
+tt {}
+del {}
+ins {}
+var {}
+
+basefont|x {}
+isindex|x {}
+strike|x {}
+center|x {}
+font|x {}
+menu|x {}
+dir|x {}
+u|x {}
+s|x {}
+
+comment|e {}
+marquee|e {}
+ruby|e {}
+rt|e {}
+
+spacer|n {}
+server|n {}
+ilayer|n {}
+keygen|n {}
+layer|n {}
+blink|n {}
+
+/* -- TABLES -- */
+
+table {}
+th {}
+tr {}
+td {}
+
+colgroup {}
+caption {}
+col {}
+
+tbody {}
+thead {}
+tfoot {}
+
+multicol|n {}
+
+/* -- FRAMES -- */
+
+frame {}
+frameset {}
+noframes {}
+
+/* -- ID -- */
+
+#header-wrapper {
+  background-color:#F8F8F8; /*rgb(188,219,230)*/
+  /*background: transparent;*/
+  padding: 0px 0px 30px 0px;
+}
+
+#site-header img {
+  margin-left: 0px;
+}
+
+#main-menu-wrapper {
+    background-color: #F0F0F0;
+    background-image: linear-gradient(center top , #DEDEDE, #F0F0F0);
+    height: 31px;
+}
+
+#navigation ul#main-menu {
+    margin: 0px 0px 0px 0px;
+}
+
+#main-wrapper {
+    background: url('Vdesktop.jpg') repeat-x scroll center top #000000;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: auto auto;
+    padding-top: 10px;
+	
+
+}
+
+#graphic {
+    margin: auto;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+    background: transparent;
+	min-height: 512px;
+}
+
+#content {
+  background: #FFFFFF;
+  min-height: 500px;
+  margin-top: auto;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;  
+}
+
+#footer-wrapper {
+    background-image: linear-gradient(#DEDEDE, #F0F0F0);
+    bottom: 0px;
+    line-height: 120%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: static;
+    width: 100%;
+    background-color: #E0E0E0;
+	font-size: 0.8em;
+}
+
+/* -- CLASSES -- */
+
+.hide { display: none; }
+.show { display: block; }
+.right { float: right; }
+.left { float: left; }
+
+.vert-align { vertical-align: middle; }
+.center { text-align: center; }
+
+.headercenter {
+  width: 767px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.menucenter {
+	width: 900px;
+	margin: auto;
+}
+
+.pagecenter {
+  width: 80%;
+  margin-left: auto;
+  margin-right:auto;  
+}
+
+.footer-block {
+  display: inline;
+  color: #111111;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.footer-menu {
+  border-right: 1px solid #808080;
+  padding-right: 10px;
+}
+
+.clear {
+	display: block;
+	clear: both;
+	height: 1%;
+	margin: 0;
+	padding: 0;
+	font-size: 1px; 
+	line-height: 1px;
+}
+.background {
+	background-color: #F8F8F8;
+	background-image:;
+	background-repeat:;
+	background-attachment:;
+	background-position:;
+}
+.nobackground {
+	background: none;
+}
+.skipnav {
+	position: absolute;
+	height: 0.1em;
+	left: -9999px;
+	top: -9999px;
+}
+.noborder { border: 0 none; }
+
+/* -- MEDIA -- */
+
+embed {}
+param {}
+object {}
+applet|x {}
+bgsound|e {}
+
+/* -- SCRIPTS -- */
+
+script {}
+noscript {}
+
+/* -- HACKS -- */
+
+div.clearfix:after {
+	content: " ";
+	visibility: hidden;
+	display: block;
+	clear: both;
+	height: 0; 
+}
+div.clearfix { display: inline-table; }
+/* Hides from IE-mac \*/
+* html div.clearfix { height: 1%; }
+div.clearfix { display: block; }
+/* End hide from IE-mac */
+
+/* -- END FILE -- */
+
+/* -- Complete CSS Skeleton | Created by Monzilla Media for Perishable Press -- */
+/* -- Updated Aug 21st 2006 | Leave this footer credit complete and use at will -- */
